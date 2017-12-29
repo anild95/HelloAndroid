@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.adaloglu.helloandroid.MainActivity">
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:contentDescription="@string/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/udacity2"
+        android:scaleType="fitStart"/>
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/udacity"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp"
+        android:layout_below="@id/ImageView"
+        android:textStyle="bold|italic"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="320sp"
+        tools:ignore="RelativeOverlap"/>
+
+
+    <ImageView
+        android:id="@+id/ImageView2"
+        android:contentDescription="@string/Imageview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/udacity"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="260sp"
+        android:layout_marginTop="300dp"
+        android:layout_alignParentEnd="true"/>
+
+    <ImageView
+        android:id="@+id/ImageView3"
+        android:contentDescription="@string/ImageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/udacity3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="450sp"
+        android:layout_marginBottom="100dp"/>
+
+    <TextView
+        android:id="@+id/Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/TextView"
+        android:layout_marginTop="100dp"
+        android:fontFamily="monospace"
+        android:text="@string/udacity_address"
+        android:textColor="@android:color/background_dark"
+        android:autoLink="map"
+        android:textColorLink="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/PhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@id/Address"
+        android:layout_marginTop="150dp"
+        android:fontFamily="monospace"
+        android:text="@string/Udacity_Phone_Number"
+        android:textColor="@android:color/background_dark"
+        android:autoLink="phone"
+        android:textColorLink="#0091EA"
+        android:textSize="25sp"
+
+        android:textStyle="bold"
+        tools:ignore="RelativeOverlap" />
+
+    <Button
+        android:id="@+id/WebsiteAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@id/PhoneNumber"
+        android:layout_marginTop="120dp"
+        android:fontFamily="monospace"
+        android:text="@string/Udacity_Website_Address"
+        android:textColor="@android:color/white"
+        android:textColorLink="#0091EA"
+        android:autoLink="web"
+        android:textSize="25sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        tools:ignore="RelativeOverlap" />
+
+</RelativeLayout>

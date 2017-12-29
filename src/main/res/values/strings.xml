@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="udacity">Udacity</string>
+    <string name="imageview">imageview</string>
+    <string name="Imageview2">imageview2</string>
+    <string name="udacity_address">2465 Latham St Mountain View, CA 94043</string>
+    <string name="Udacity_Phone_Number">650 555 5555</string>
+    <string name="Udacity_Website_Address">www.udacity.com</string>
+    <string name="ImageView3">ImageView3</string>
+</resources>
